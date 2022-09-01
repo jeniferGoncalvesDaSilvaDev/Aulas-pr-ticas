@@ -1,0 +1,111 @@
+.flex-container{
+    background-color: gray;
+    width: 100%;
+    height: 1000vh;
+    /* propriedades do flexbox no elemento pai(container) */
+    display: flex; 
+    /* flexbox row ja é a direcao padrao da esquerda para direita */
+    /* row-reverse da direita para esquerda */
+    /* column de cima para baixo */
+    /* column-reverse de baixo para cima */
+    /*propriedades de flexbox no container, altera o comportamento dos itens*/
+    /* o padrao eh nowrap, sem quebrar a linha*/
+    /* justfy content alinha conteudos: flex-start, flex-end, center, space around, space-between, space-evely(eixo horizontal)
+    */
+    /* align-items: center, flex-start, flex-end, stretch*/
+    /*align-self, flex-grow, order, são propriedades de itens*/
+    /*quando o flex-direction esta em coluna, justify-content(eixo principal ou horizontal) e align-items, trabalham inversamente(eixo transversal ou vertical) isso vale para align-self que vai trabalhar no eixo horizontal e flex-grow que vai trabalhar na vertical*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+
+
+.flex-item1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    
+
+ 
+  
+}
+.flex-item2{
+    background-color: pink;
+    width: 100px;
+    height:100px ;
+    align-self: flex-end;
+    order: 1;
+}
+.flex-item3{
+    background-color: orange;
+    flex-grow: 5;
+    height:100px ;
+}
+.flex-item4{
+    background-color: green;
+    width: 100px;
+    height:100px ;
+}
+.flex-item5{
+    background-color: purple;
+    width: 100px;
+    height:100px ;
+}
+.flex-item6{
+    background-color: black;
+    width: 100px;
+    height:100px ;
+}
+.flex-item7{
+    background-color: white;
+    width: 100px;
+    height:100px ;
+}
+
+
+.um{
+    background-color: purple ;
+    width: 30px;
+    height: 30px;
+
+}
+.dois{
+    background-color: green ;
+    width: 30px;
+    height: 30px;
+}
+
+.tres{
+    background-color: orange ;
+    width: 30px;
+    height: 30px;
+}
+
+    
+
+
+.quatro{
+    background-color: red ;
+    width: 30px;
+    height: 30px;
+}
+.cinco{
+  background-color: pink ;
+  width: 30px;
+  height: 30px;
+}
+.seis{
+    background-color: yellow ;
+    width: 30px;
+    height: 30px;
+}
+
+.sete{
+    background-color: white ;
+    width: 30px;
+    height: 30px;
+}
